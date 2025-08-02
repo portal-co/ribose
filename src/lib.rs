@@ -1,5 +1,5 @@
 #![no_std]
-pub fn ribose(a: &mut [u8], mut rand: impl FnMut(&mut u8)) {
+pub fn ribose(a: &mut [u8], mut rand: &mut (dyn FnMut(&mut u8) + '_)) {
     for i in 0..(a.len()) {
         let mut censor = false;
         if a[i] == b'/' {
