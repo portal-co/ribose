@@ -1,10 +1,10 @@
 # ribose
 
 ## Description
-Project ribose
+Placeholder or new project `ribose`.
 
 ## Goals
-- [ ] Add project goals
+- [ ] TBD
 
 ## Progress
 - [ ] Initial setup
